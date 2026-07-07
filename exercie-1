@@ -1,0 +1,46 @@
+//1. Create a variable of type string and try to add number to it
+let var1 = "Harsh Bhardwaj";
+let num1 = 20;
+result = var1 + num1;
+console.log(result)
+
+// 2. Use typeof operator to find the type of a string
+let str1 = "Harsh Sharma";
+let num2 = 81;
+let bool = true;
+console.log(str1)
+console.log(typeof str1)
+console.log(typeof(num2))
+console.log(typeof bool)
+
+//3. create  a cont object in js can you change it to hold a number later
+const obj= {
+    name: "HARSH",
+    age: 29
+};
+obj.name = "Bhola";
+obj.age = 30;
+console.log(obj)
+
+//4. Add a new key to const obj
+obj.city = "Delhi";
+console.log(obj)
+obj.city = "Mumbai";
+console.log(obj)
+
+// one more way
+const person = {};
+person.name = "Harsh";
+person.age = 29;
+person.city = "Rohtak";
+person.tehsil= "Meham"
+console.log(person);
+
+//5. create a dictionary of of some words and their meanings
+const dictionary = {
+    Javascript : "A programming language used to make webpages interactive",
+    HTML : "A markup language used to creste webpages",
+    CSS : "A style sheet language used to style webpages",
+}
+console.log(dictionary.Javascript)
+console.log(dictionary.HTML)
