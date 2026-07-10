@@ -39,3 +39,39 @@ let strmethod = "This is an example"
 console.log(strmethod.charAt(5)) //char at position
 console.log(strmethod.charCodeAt(2))
 console.log(strmethod.codePointAt(1))
+
+
+// to concatenate two strings
+let text1 = "Hello"
+let text4 = "World"
+let text6 = text1.concat(text4)
+let text5 = text1+text4
+console.log(text6)
+console.log(text5)
+
+// text slicing 
+let txt = "Apple, kiwi, Banana"
+console.log(txt.slice(1,6))
+let part = txt.slice(5,10)
+console.log(part)
+
+// to convert strings to uppercase and lowercase
+let normstr = "Harsh Bhardwaj"
+let toup = normstr.toUpperCase();
+console.log(toup)
+console.log(normstr.toUpperCase())
+
+console.log(normstr.toLowerCase())
+
+// to repeat text
+console.log(normstr.repeat(20))
+
+// to replace text 
+console.log(normstr.replace("Bhardwaj","Sharma"))
+
+// index of strings
+let instr = "HEYYYY HOW AND WHERE ARE YOU"
+console.log(instr.indexOf("AND"))
+console.log(instr.search("ARE"))
+console.log(instr.startsWith("HEYYYY"))
+console.log(instr.endsWith("djdknd"))
