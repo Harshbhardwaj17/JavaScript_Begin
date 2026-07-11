@@ -75,3 +75,13 @@ console.log(number)
 
 console.log(person2.getid());
 console.log(person2.fullname());
+
+console.log("JS DATES AND TIME")
+const d = new Date();
+console.log(d)
+d.getHours();
+d.getMonth();
+
+const e = new Date();
+e.getFullYear();
+
