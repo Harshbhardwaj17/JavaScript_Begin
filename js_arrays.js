@@ -52,6 +52,7 @@ let position = fruits.lastIndexOf("Apple") + 1;
 console.log(position)   
 fruits.includes("Apple");
 
+
 //sorting an array
 fruits.sort();
 console.log(fruits.sort());
@@ -59,3 +60,36 @@ console.log(fruits.sort());
 // reversing an array
 console.log(fruits.reverse());
 
+// for loop in an array 
+for(i=0; i<person.length; i++){
+    console.log(person[i])
+}
+
+
+// a new array
+let vegetables = ["Carrot", "Tomato", "Potato", "Reddish"]
+// for of loop in an array
+for(let vegetable of vegetables){
+    console.log(vegetable);
+}
+
+//for in loop
+for(let abc in vegetables){
+    console.log(vegetables[abc])
+    
+}
+
+// while loop in array
+let a = 0;
+while(a<fruits.length){
+    console.log(fruits[a])
+    a++;
+}
+
+// do while loop
+let b = 0;
+do{
+    console.log(cars[b])
+    b++;
+}
+while(b<cars.length);
