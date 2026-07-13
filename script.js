@@ -70,3 +70,58 @@ function showinfo(){
     console.log(location.href);
     console.log(screen.width);
 }
+
+//example of child , parent , siblings in js dom
+let paraa1 = document.getElementById("heading");
+console.log(paraa1.parentNode); // it rerurns whole parent nodes 
+console.log(paraa1.parentElement); // it returns only one parent node
+
+// to retrieve children in document
+let box = document.getElementById("parent");
+console.log(box.children);
+
+// to acess an inividual child
+console.log(box.children[0]);
+
+//child nodes will return all nodes of childrens including elements comments tags etc
+console.log(box.childNodes);
+
+// parent nodes in html 
+let prt = document.getElementById("para2");
+console.log(prt.parentElement)
+
+// it returns first child of an elements
+console.log(parent.firstChild);
+
+let ptr = document.getElementById("parent");
+// console.log(parent.firstChild);
+// console.log(parent.firstElementChild);
+console.log(parent.lastChild);
+
+console.log(parent.childNodes);
+
+//siblings in javascript
+let heading = document.getElementById("para1");
+console.log(heading.nextSibling);
+
+console.log(heading.nextElementSibling);
+function changecolor(){
+    document.body.style.backgroundColor = "Cyan";
+    document.getElementById("abc").style.color = "red"
+}
+// to open some other window
+window.open("www.google.com");
+// to open print window
+window.print();
+console.log(navigator);
+ let b = document.body
+ console.log("First child of b is :", b.firstChild)
+  console.log("First elementchild of b is :", b.firstElementChild)
+  
+
+const changebg = () =>{
+    document.body.firstElementChild.style.background = "red"
+}
+
+let t1 = document.body.firstElementChild;
+console.log(t1)

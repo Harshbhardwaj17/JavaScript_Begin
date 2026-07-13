@@ -1,3 +1,7 @@
 body{
     background-color: antiquewhite;
 }
+ul{
+    display: flex;
+    gap: 5rem;
+}
