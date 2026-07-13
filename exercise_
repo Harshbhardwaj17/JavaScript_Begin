@@ -12,3 +12,13 @@ else{
 let age = 12;
 let a = age>18 ? "You can drive" : "You can't drive"
 console.log(a)
+
+function changecolor(){
+    document.body.style.backgroundColor = "Cyan";
+    document.getElementById("abc").style.color = "red"
+}
+// to open some other window
+window.open("www.google.com");
+// to open print window
+window.print();
+console.log(navigator);

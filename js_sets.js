@@ -10,9 +10,8 @@ letters.add("D")
 
 console.log(letters)
 console.log(typeof letters);
-// size of an set 
+// size of an set c
 console.log(letters.size)
-
 //has method 
 tocheck = letters.has("D")
 console.log(tocheck)
