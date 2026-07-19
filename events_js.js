@@ -411,3 +411,16 @@ console.log(name)
 
 let city = localStorage.getItem("city")
 console.log(city)
+
+console.log(localStorage.getItem("gender"))
+
+// to remove an item 
+localStorage.removeItem("name")
+// let name = localStorage.getItem("name");
+console.log(name)
+
+//clear clears everything
+// localStorage.clear();
+
+// to aceess a key 
+console.log(localStorage.key(0));
